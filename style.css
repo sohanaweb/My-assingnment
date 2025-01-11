@@ -6,8 +6,8 @@
 }
 
 main{
-    width: 90%;
-    background-color: whitesmoke;
+    width: 100%;
+    background-color: rgb(250, 243, 243);
 
 }
 .navber{
@@ -35,19 +35,20 @@ main{
 .banner{
     display :flex ;
     justify-content: space-between;
-    border: 1px solid ;
+    border: none ;
     height: 300px;
-    width: 820px ;
+    width: 100% ;
     background-color: rgb(198, 228,214);
+    border-radius: 2%;
 }
 .banpicture{
     height: 230px;
-    max-width: 200px;
+    max-width: 250px;
 
 }
 .banner-content{
-    max-width: 200px;
-    margin-top: 85px;
+    max-width: 220px;
+    margin-top: 80px;
 }
 /* vision of future design */
 .parent{
@@ -126,16 +127,13 @@ border-radius: 5%;
 /* recent new section */
 .newsbox1{
     display: flex;
-    width: 1280px;
+    width: 1580px;
     height: 320px;
     border: 1px solid;
     text-align: start;
-    
-    margin-left: 8px;
     border-radius: 4%;
     border: none;
     background-color: white;
-    width: 1400px;
 }
 .newsboxright{
     justify-content: start;
@@ -143,7 +141,7 @@ border-radius: 5%;
 }
 .part3{
     border-radius: 10%;
-   
+    width: 1900px;  
     height: 402px;
     border-radius: 22%;
 }
@@ -155,11 +153,63 @@ border-radius: 5%;
     width: 139px;
     height: 48px;
 }
-/* end of news */
 
+
+
+
+/* end of  task 3 */
+.today{
+    padding: 25px;
+    
+    display: flex;
+    gap: 30px; 
+    text-align: center;
+    justify-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+.donate{
+    background-color: #FFFFFF;
+    width: 230px;
+
+border: none  ;
+padding:40px;
+font-size: 40px;
+border-radius: 5%;
+text-align: center;
+
+
+}
+.dntnow{
+    text-align: center;
+    justify-content: center;
+}
+.donateinput{
+    width: 2240px;
+    height: 0px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 40px ;
+    margin-bottom: 40px;
+    display: block;
+    font-size: 50px;
+}
+.btnfordn{
+    background-color: #006A50;
+
+    
    
+    margin: auto ;
+    display: block;
+    height: 100px;
+    width: 200px;
+    color: #FFFFFF;
+    text-size-adjust: 20px;
+    margin-bottom: 200px;
+    
+    
 
-
-
-
+}
 
