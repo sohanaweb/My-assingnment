@@ -1,10 +1,15 @@
 /* universal code */
 *{
     padding: 0;
-    margin: 3px;
+    margin: 8px;
+    
 }
 
+main{
+    width: 90%;
+    background-color: whitesmoke;
 
+}
 .navber{
     display: flex;
     justify-content: space-around;   
@@ -101,22 +106,59 @@ border-radius: 5%;
 }
 .btn1{
     background-color:#09A15C ;
-    border :none;
+    border: 0px;
     border-radius: 9%;
     padding: 20px 11px;
 }
 .btn2{
     background-color: #84B1FC;
-    border :none;
+    border: 0px;
     border-radius: 9%;
     padding: 20px 11px;
 }
 .btn3{
     background-color: #FFC239;
-    border :none;
+    border: 0px;
     border-radius: 9%;
     padding: 20px 11px;
 }  
+
+/* recent new section */
+.newsbox1{
+    display: flex;
+    width: 1280px;
+    height: 320px;
+    border: 1px solid;
+    text-align: start;
+    
+    margin-left: 8px;
+    border-radius: 4%;
+    border: none;
+    background-color: white;
+    width: 1400px;
+}
+.newsboxright{
+    justify-content: start;
+    width: 1900px;  
+}
+.part3{
+    border-radius: 10%;
+   
+    height: 402px;
+    border-radius: 22%;
+}
+.btnfornews{
+    background-color: #006A50;
+    border-radius: 8%;
+
+    color: white;
+    width: 139px;
+    height: 48px;
+}
+/* end of news */
+
+   
+
 
 
 
