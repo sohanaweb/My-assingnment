@@ -198,18 +198,47 @@ text-align: center;
 }
 .btnfordn{
     background-color: #006A50;
-
-    
-   
-    margin: auto ;
+      margin: auto ;
     display: block;
     height: 100px;
     width: 200px;
     color: #FFFFFF;
     text-size-adjust: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
     
     
 
+}
+.subbtn{
+    background-color: #006A50;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+    width: 82px;
+    height: 55px;
+    
+    margin-left: -12px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+.emailtyp{
+width: 600px;
+height: 55px;
+border-radius: 5%;
+border: none;
+
+}
+.newsletter{
+    background-color: #C6E4D6;
+    justify-items: center;
+    margin-top: 40px;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+#newssub
+{
+    margin-top: 50px;
 }
 
