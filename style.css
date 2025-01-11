@@ -1,9 +1,10 @@
 /* universal code */
 *{
     padding: 0;
-    margin: 1px;
+    margin: 3px;
     background-color: azure;
 }
+
 
 .navber{
     display: flex;
@@ -15,6 +16,25 @@
     color: green;
     text-align: center;
     padding: 5px;
-    border-radius: 15%;   
+    border-radius: 6%;   
+}
+.button2{
+    background-color: green;
+    color: white;
+    border: 2px;
+    padding: 10px 35px;
+    border-radius: 5%;
+
+}
+/* banner styless */
+
+.banner{
+    display :flex ;
+    justify-content: space-between;
+    
+}
+.banpicture{
+    height: 200px;
+    max-width: 200px;
 }
 
