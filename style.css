@@ -2,7 +2,6 @@
 *{
     padding: 0;
     margin: 3px;
-    background-color: azure;
 }
 
 
@@ -22,7 +21,7 @@
     background-color: green;
     color: white;
     border: 2px;
-    padding: 10px 35px;
+    padding: 5px 3px;
     border-radius: 5%;
 
 }
@@ -31,10 +30,34 @@
 .banner{
     display :flex ;
     justify-content: space-between;
-    
+    border: 1px solid ;
+    height: 300px;
+    width: 820px ;
+    background-color: rgb(198, 228,214);
 }
 .banpicture{
-    height: 200px;
+    height: 230px;
     max-width: 200px;
+
 }
+.banner-content{
+    max-width: 200px;
+    margin-top: 85px;
+}
+/* vision of future design */
+.parent{
+    display: flex;
+    margin: 2px;
+    gap: 20px;
+    border: none;
+    border-radius: 2%;
+    background-color: rgb(237, 245, 245);
+}
+.ino{
+    gap: 10px;
+    border : 1px solid ;
+border-radius: 5%;
+
+} 
+/* ending of first section */
 
