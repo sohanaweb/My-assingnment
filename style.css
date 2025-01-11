@@ -1,18 +1,20 @@
-
+/* universal code */
 *{
     padding: 0;
     margin: 1px;
+    background-color: azure;
 }
 
-.sign{
-    background-color:white;
-    color: rgb(67, 138, 67);
-    border: 1px solid;
-    padding: 0;
-
-
-}
-.navbar{
+.navber{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;   
 }
+.button{
+    background-color: white;
+    border: 1px solid;
+    color: green;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15%;   
+}
+
